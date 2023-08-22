@@ -1,0 +1,19 @@
+#home-section{
+    display: flex;
+    align-items: center;
+    //Separamos los elementos con GAP//
+    column-gap: 50px;
+    animation: introup 2s;
+    position: relative;
+    P{
+        width: 70%;
+        font-size: $tamaño-fuente-pequeña;
+        color: $color-fuente-escritorio;
+        strong{
+            font-size: $tamaño-fuente-mediana;
+            span{
+                color: $color-fuente-header-principal;
+            }
+        }
+    }
+}

@@ -1,0 +1,118 @@
+@charset "UTF-8";
+@keyframes introup {
+  from {
+    opacity: 0;
+    position: relative;
+    bottom: -50px;
+  }
+  to {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+#home-section {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  animation: introup 2s;
+  position: relative;
+}
+#home-section P {
+  width: 70%;
+  font-size: 18px;
+  color: rgb(46, 46, 46);
+}
+#home-section P strong {
+  font-size: 30px;
+}
+#home-section P strong span {
+  color: #4e3300;
+}
+
+#about {
+  -moz-column-gap: 65px;
+       column-gap: 65px;
+  padding: 0px 20px;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#about img {
+  /*Atributo para que la imagen no se estire y cubra el tamaño especificado*/
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+strong {
+  font-size: 30px;
+  color: #4e3300;
+}
+
+p {
+  width: 85%;
+  font-size: 18px;
+  color: rgb(46, 46, 46);
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0%;
+}
+
+body {
+  background-color: #ffffc7;
+}
+
+header {
+  text-align: center;
+  background-color: #ddc88f;
+  height: 25vh;
+}
+header h1 {
+  margin: 0%;
+  color: #4e3300;
+  padding-top: 30px;
+  font-size: 45px;
+}
+header h2 {
+  color: #82612d;
+  font-size: 30px;
+  /*Atributo para volver delgada la letra*/
+  font-weight: lighter;
+}
+header #aboutme {
+  color: #4e3300;
+  font-size: 45px;
+  padding: 30px;
+  font-weight: bolder;
+}
+
+main {
+  padding: 0px 200px;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  border-radius: 9999px;
+}
+
+button {
+  margin-top: 20px;
+  width: 120px;
+  font-size: 18px;
+  color: #4e3300;
+  background-color: #ddc88f;
+  border: 1px solid #82612d;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#button2 {
+  width: 170px;
+  margin-top: 10px;
+}/*# sourceMappingURL=styles.css.map */
